@@ -1,0 +1,306 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background:#f7f3f3;	
+}
+
+p{
+    font-family: "Rosario", sans-serif;
+    font-size: 20px;
+}
+
+header, .main{
+	width: 90%;
+	max-width: 1200px;
+	margin: 20px auto;
+}
+
+
+header nav{
+	background: #045e08;
+	overflow: hidden;
+}
+
+header nav ul{
+	list-style: none;
+}
+
+header nav ul li{
+	float:left;
+}
+
+header nav ul li a{
+	padding: 10px 20px;
+	display:block;
+	color:#fff;
+	text-decoration: none;
+}
+
+
+header nav ul li a:hover{
+	background:#75ACEC;
+}
+
+p, li{
+	font-size:20px;
+}
+
+h1{
+	font-family: "Smooch Sans", sans-serif;
+	font-size: 60px;
+}
+
+h2{
+	font-family: "Smooch Sans", sans-serif;
+    font-size: 40px;
+}
+
+h3{
+    font-family: "Farro", sans-serif;
+}
+
+.sectitulo{
+    width:87%;
+    margin:0 auto;
+}
+
+
+
+.vertical-line{
+    background-color: rgb(15, 15, 15);
+    width:89%;
+    margin:0 auto;
+    min-height: 3px;
+}
+
+
+#secu{
+    width: 80%;
+}
+
+.portada{
+    width: 55%;
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    margin-left: auto; /* Establece el margen izquierdo como automático */
+    margin-right: auto; /* Establece el margen derecho como automático */
+    border-bottom: 30px;
+    padding-right: 5%;
+}
+
+
+.primero{
+    width: 80%;
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    margin-left: auto; /* Establece el margen izquierdo como automático */
+    margin-right: auto; /* Establece el margen derecho como automático */
+    background-color: rgb(51, 135, 231);
+    text-align: center;
+    padding: 30px;
+
+}
+
+.newscontainer{
+    background-color: #1ee635;
+    text-align: center;
+    padding-bottom: 11%;
+    width: 97.7%;
+}
+
+.grid-container{
+    display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(1, 1fr);
+      grid-gap: 20px;
+      padding-left: 30px;
+      padding-right: 30px;
+}
+
+.imagen-noticias{
+    padding-bottom: 10px;
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    margin-left: auto; /* Establece el margen izquierdo como automático */
+    margin-right: auto; /* Establece el margen derecho como automático */
+
+
+}
+
+footer{
+	background: #333;
+	color: white;
+	padding: 1em;
+	margin-top: 30px;
+}
+
+.texto{
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.unir{
+    width:87%;
+    background-color: rgb(206, 10, 10);
+    margin-bottom: 60px;
+    margin-top: 60px;
+    text-align: center;
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    margin-left: auto; /* Establece el margen izquierdo como automático */
+    margin-right: auto; /* Establece el margen derecho como automático */
+    float:center;
+    padding: 10%;
+    border-radius: 20px;
+}
+
+#gr{
+    background-color: rgb(51, 135, 231);
+    grid-template-columns: repeat(2, 1fr);
+    width:87%;
+    margin-left: auto; /* Establece el margen izquierdo como automático */
+    margin-right: auto; /* Establece el margen derecho como automático */
+
+}
+
+#info{
+    background-color:rgb(51, 135, 231);
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+#info a{
+    text-decoration:none;
+    color: black;
+    font-family: "Rosario", sans-serif;
+    font-size: 20px;
+}
+
+#info a:hover{
+    background:white;
+    
+
+}
+
+#at{
+    padding-top: 25px;
+    font-size: 50px;
+}
+
+
+
+#TIT{
+    font-family: "Josefin Sans", sans-serif;
+    padding-top: 15px;
+}
+
+.buttons {
+    min-width: 400px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+  }
+  
+  .buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+  }
+  
+  .buttons a:hover {
+    transform: scale(1.2);
+  }
+
+  @media only screen and (max-width:1400px){
+
+    .wrapper{
+        display: none ;
+    }
+
+    .tit{
+        display: none;
+    }
+
+    }
+    
+
+
+@media only screen and (max-width:750px){
+
+.sidebar{
+    display: none;
+}
+
+#grids{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+#gr{
+    grid-template-columns: repeat(1, 1fr);
+    width:70%;
+    margin-left: auto; /* Establece el margen izquierdo como automático */
+    margin-right: auto; /* Establece el margen derecho como automático */
+
+}
+
+.main{
+    width: 90%;
+}
+
+.wrapper{
+    max-height: 250px;
+    border: 1px solid #ddd;
+    display: flex;
+    overflow-x: auto;
+}
+
+
+.imagen-noticia{
+    width: 90%;
+    min-width: 300px;
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    margin-left: auto; /* Establece el margen izquierdo como automático */
+    margin-right: auto; /* Establece el margen derecho como automático */
+    
+}
+
+.imagen-noticias{
+
+    width: 100%;
+    min-width: 300px;
+    padding-bottom: 10px;
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    margin-left: auto; /* Establece el margen izquierdo como automático */
+    margin-right: auto; /* Establece el margen derecho como automático */
+
+}
+
+.newscontainer{
+    background-color: #1ee635;
+    text-align: center;
+    padding-bottom: 11%;
+	width: 100%;
+    max-width: 350px;
+}
+
+header, .main{
+	width: 90%;
+	max-width: 19em;
+	margin: 20px auto;
+}
+.tit{
+    display: block;
+}
+}
+
+
+
